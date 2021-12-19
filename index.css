@@ -1,0 +1,114 @@
+*{
+    /* remain 0 unless i change them */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html { 
+    scroll-behavior: smooth; 
+} 
+
+.menu-bar{
+    background-image: linear-gradient(-90deg, #668c97, rgba(254,189,183,255));
+}
+
+.logo{
+    color: white !important;
+}
+
+.nav-link{
+    font-size: 16px;
+    margin: 3px;
+    color: white !important;
+    font-weight: 500;
+}
+
+.navbar-nav{
+    text-align: right;
+    margin-right: 20px;
+}
+
+.menu-bar .navbar-toggler{
+    padding-right: 20px;
+    outline: none !important;
+    border: none !important;
+}
+
+.navbar .fa{
+    color: white !important;
+    font-size: 26px;
+}
+
+.nav-link:hover{
+    font-weight: 600;
+    border-bottom: 1px solid white;
+}
+
+@media only screen and(max-width:1000px){
+    .nav-link:hover{
+        border-bottom: none !important;
+    }
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.sec{
+    margin-top: 10hv !important;
+}
+
+body{
+    height: 546;
+}
+
+.header {
+    background: url("pics/background.jpeg") no-repeat center fixed;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;   
+}
+
+.pic-middle{
+    width: 250px;
+}
+
+.about{
+    height: 90vh;
+}
+
+.beforeSection{
+    height: 10vh;
+}
+.space{
+    height: 5vh;
+}
+
+.Services{
+    height: 100vh;
+}
+
+.nav{
+    background-color: black transparent;
+}
+/* .navbar {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+    }
+
+.navbar li { color: #000 }  */
+.navbar-default {
+    background-color:transparent !important;
+    border-color:transparent;
+    background-image:none;
+    box-shadow:none;  
+}
+
+.row-centered {
+    text-align:center;
+    left: 45%
+}
