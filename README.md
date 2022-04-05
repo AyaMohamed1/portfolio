@@ -1,3 +1,3 @@
 # portofolio
-my portofolio live demo
+my portfolio live demo
 https://ayamohamed1.github.io/portofolio/
